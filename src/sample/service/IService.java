@@ -2,8 +2,6 @@ package sample.service;
 
 import javafx.collections.ObservableList;
 
-import java.util.List;
-
 public interface IService<T> {
 
     ObservableList<T> getAll();
