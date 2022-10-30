@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXDatePicker?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="326.0" prefWidth="462.0" styleClass="root2" stylesheets="@../css/sample.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.Stage2Controller">
+    <top>
+        <HBox alignment="CENTER_RIGHT" prefHeight="70.0" prefWidth="750.0" BorderPane.alignment="CENTER">
+            <children>
+                <Label prefHeight="31.0" prefWidth="313.0">
+                    <font>
+                        <Font size="21.0" />
+                    </font>
+                    <HBox.margin>
+                        <Insets left="50.0" right="50.0" />
+                    </HBox.margin>
+                </Label>
+                <HBox alignment="CENTER_RIGHT" prefHeight="105.0" prefWidth="215.0">
+                    <children>
+                        <Button fx:id="min" mnemonicParsing="false" onAction="#minStage" styleClass="btnmin">
+                            <graphic>
+                                <FontAwesomeIconView glyphName="WINDOW_MINIMIZE" size="20.0" styleClass="min">
+                                    <cursor>
+                                        <Cursor fx:constant="HAND" />
+                                    </cursor>
+                                </FontAwesomeIconView>
+                            </graphic>
+                            <HBox.margin>
+                                <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                            </HBox.margin>
+                        </Button>
+                        <Button fx:id="close" mnemonicParsing="false" onAction="#closeStage" styleClass="btnclose">
+                            <graphic>
+                                <FontAwesomeIconView glyphName="WINDOW_CLOSE_ALT" size="20.0" styleClass="close">
+                                    <cursor>
+                                        <Cursor fx:constant="HAND" />
+                                    </cursor>
+                                </FontAwesomeIconView>
+                            </graphic>
+                            <HBox.margin>
+                                <Insets bottom="20.0" right="20.0" top="20.0" />
+                            </HBox.margin>
+                        </Button>
+                    </children>
+                </HBox>
+            </children>
+        </HBox>
+    </top>
+    <center>
+        <VBox prefHeight="167.0" prefWidth="423.0" BorderPane.alignment="CENTER">
+            <children>
+                <HBox alignment="CENTER" prefHeight="75.0" prefWidth="423.0">
+                    <children>
+                        <Label text="Date Naiss">
+                            <font>
+                                <Font size="29.0" />
+                            </font>
+                            <HBox.margin>
+                                <Insets right="40.0" />
+                            </HBox.margin>
+                        </Label>
+                  <JFXDatePicker fx:id="dateNaiss" prefHeight="52.0" prefWidth="249.0">
+                     <HBox.margin>
+                        <Insets right="10.0" />
+                     </HBox.margin>
+                  </JFXDatePicker>
+                    </children>
+                </HBox>
+                <HBox alignment="CENTER" prefHeight="69.0" prefWidth="423.0">
+                    <children>
+                        <Label text="Lieu Naiss">
+                            <font>
+                                <Font size="29.0" />
+                            </font>
+                            <HBox.margin>
+                                <Insets right="40.0" />
+                            </HBox.margin>
+                        </Label>
+                        <JFXTextField fx:id="lieuNaiss" prefHeight="52.0" prefWidth="220.0" style="-fx-background-color: #c2dace; -fx-background-radius: 20;">
+                            <HBox.margin>
+                                <Insets right="40.0" />
+                            </HBox.margin>
+                        </JFXTextField>
+                    </children>
+                </HBox>
+            </children>
+        </VBox>
+    </center>
+    <bottom>
+        <HBox alignment="CENTER" prefHeight="97.0" prefWidth="452.0" BorderPane.alignment="CENTER">
+            <children>
+                <Button mnemonicParsing="false" onAction="#add" prefHeight="60.0" prefWidth="130.0" styleClass="b1" stylesheets="@../css/btn.css" text="OK">
+                    <HBox.margin>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                    </HBox.margin>
+                </Button>
+                <Button mnemonicParsing="false" onAction="#cancel" prefHeight="60.0" prefWidth="130.0" styleClass="b5" stylesheets="@../css/btn.css" text="CANCEL">
+                    <HBox.margin>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                    </HBox.margin>
+                </Button>
+            </children>
+            <BorderPane.margin>
+                <Insets />
+            </BorderPane.margin>
+        </HBox>
+    </bottom>
+</BorderPane>

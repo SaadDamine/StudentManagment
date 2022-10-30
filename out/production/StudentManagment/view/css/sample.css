@@ -1,0 +1,76 @@
+.root{
+-fx-background-color:#f7f2ee;
+-fx-background-radius: 20;
+}
+.root2{
+-fx-border-color: #f19586;
+-fx-border-style: solid;
+-fx-border-width: 5;
+-fx-border-radius: 20;
+}
+.jfx-text-field,
+.jfx-combo-box,
+.jfx-date-picker{
+    -fx-border-radius: 20px;
+    -fx-border-color: #CCCCCC;
+}
+
+.jfx-text-field {
+    -fx-padding: 0.333333em 1em 0.333333em 1em;
+}
+
+.jfx-combo-box {
+    -fx-padding: 0em 1em 0em 1em;
+}
+
+.jfx-text-field > .input-line,
+.jfx-combo-box > .input-line {
+    -fx-background-color: transparent;
+    -fx-pref-height: 0px;
+    -fx-translate-y: 0px;
+}
+
+.jfx-text-field > .input-focused-line,
+.jfx-combo-box > .input-focused-line {
+    -fx-background-color: transparent;
+    -fx-pref-height: 0px;
+}
+.main{
+-fx-background-image: url("../img/back.png");
+-fx-background-repeat: stretch;
+-fx-background-size: 800 600;
+-fx-background-position: center center;
+}
+.circle{
+-fx-fill: white;
+}
+.c1{
+-fx-fill: #a8a8a8;
+}
+.btn{
+-fx-background-color:#e0b7ad;
+-fx-background-radius:50;
+-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+.btn:hover{
+-fx-background-color:#eb9384;
+-fx-background-radius:50;
+-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+.btn:pressed{
+-fx-background-color:#eb9384;
+-fx-background-radius:50;
+-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 30, 0, 0, 0);
+}
+.close{
+-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+.min{
+-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+.btnmin{
+-fx-background-color:#e0b7ad;
+}
+.btnclose{
+-fx-background-color:#e0b7ad;
+}

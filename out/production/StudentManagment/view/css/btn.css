@@ -1,0 +1,122 @@
+.add{
+-fx-background-color:white;
+-fx-background-radius:50;
+-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+.add:hover{
+-fx-background-color:#c3dace;
+-fx-background-radius:50;
+-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+.add:pressed{
+-fx-background-color:#c3dace;
+-fx-background-radius:50;
+-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 30, 0, 0, 0);
+}
+
+.mod{
+-fx-background-color:white;
+-fx-background-radius:50;
+-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+.mod:hover{
+-fx-background-color:#e7c4ab;
+-fx-background-radius:50;
+-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+.mod:pressed{
+-fx-background-color:#e7c4ab;
+-fx-background-radius:50;
+-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 30, 0, 0, 0);
+}
+
+.sup{
+-fx-background-color:white;
+-fx-background-radius:50;
+-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+.sup:hover{
+-fx-background-color:#eb9384;
+-fx-background-radius:50;
+-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+.sup:pressed{
+-fx-background-color:#eb9384;
+-fx-background-radius:50;
+-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 30, 0, 0, 0);
+}
+.b1{
+-fx-background-color:white;
+-fx-background-radius:50;
+-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+.b1:hover{
+-fx-background-color:#c3dace;
+-fx-background-radius:50;
+-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+.b1:pressed{
+-fx-background-color:#c3dace;
+-fx-background-radius:50;
+-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 30, 0, 0, 0);
+}
+.b2{
+-fx-background-color:white;
+-fx-background-radius:50;
+-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+.b2:hover{
+-fx-background-color:#e2d4c5;
+-fx-background-radius:50;
+-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+.b2:pressed{
+-fx-background-color:#e2d4c5;
+-fx-background-radius:50;
+-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 30, 0, 0, 0);
+}
+.b3{
+-fx-background-color:white;
+-fx-background-radius:50;
+-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+.b3:hover{
+-fx-background-color:#e7c4ab;
+-fx-background-radius:50;
+-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+.b3:pressed{
+-fx-background-color:#e7c4ab;
+-fx-background-radius:50;
+-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 30, 0, 0, 0);
+}
+.b4{
+-fx-background-color:white;
+-fx-background-radius:50;
+-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+.b4:hover{
+-fx-background-color:#e0b7ad;
+-fx-background-radius:50;
+-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+.b4:pressed{
+-fx-background-color:#e0b7ad;
+-fx-background-radius:50;
+-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 30, 0, 0, 0);
+}
+.b5{
+-fx-background-color:white;
+-fx-background-radius:50;
+-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+.b5:hover{
+-fx-background-color:#eb9384;
+-fx-background-radius:50;
+-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+.b5:pressed{
+-fx-background-color:#eb9384;
+-fx-background-radius:50;
+-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 30, 0, 0, 0);
+}

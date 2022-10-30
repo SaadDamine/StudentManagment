@@ -1,0 +1,8 @@
+.gray{
+-fx-background-color:gray;
+}
+.cl{
+-fx-background-color:white;
+-fx-background-radius: 20;
+-fx-alignment: CENTER;
+}
