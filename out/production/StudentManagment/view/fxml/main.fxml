@@ -68,7 +68,7 @@
     <top>
         <HBox alignment="CENTER_RIGHT" prefHeight="70.0" prefWidth="750.0" BorderPane.alignment="CENTER">
             <children>
-                <Label fx:id="title" text="interface graphique">
+                <Label fx:id="title" text="Student Management system">
                     <font>
                         <Font size="34.0" />
                     </font>
